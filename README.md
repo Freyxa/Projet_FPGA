@@ -7,6 +7,7 @@
 
 ### Simulation:
 <img width="947" height="305" alt="imagen" src="https://github.com/user-attachments/assets/bf2045ae-1405-462f-b2cc-b9259fab127e" />
+
 On observe la sortie à l’état haut lorsque les deux entrées sont à l’état haut ; dans les autres cas, la sortie est à l’état bas. Cela correspond bien à la table de vérité de la porte ET.
 
 
