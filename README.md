@@ -2,8 +2,10 @@
 
 
 ## Porte ET (entrée graphique)
+### Schéma:
 <img width="919" height="277" alt="imagen" src="https://github.com/user-attachments/assets/4347dff7-f50d-4ad2-8f60-09ce808bb686" />
-
+### Simulation:
+<img width="947" height="305" alt="imagen" src="https://github.com/user-attachments/assets/bf2045ae-1405-462f-b2cc-b9259fab127e" />
 
 ## Additionneur de deux mots de 1 bit
 
