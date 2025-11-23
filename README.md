@@ -26,7 +26,7 @@ Cela correspond bien à la table de vérité de la porte ET.
 #### Schéma:
 <img width="1240" height="900" alt="imagen" src="https://github.com/user-attachments/assets/67d9838d-6bbc-4d44-92e3-75bd85ba2d1c" />
 
-#### Code VHDL mode concurrent:
+#### Code VHDL affectation inconditionnelle:
 ```vhdl
 library ieee;
 use ieee.std_logic_1164.all;
@@ -48,7 +48,7 @@ begin
 end arch_dec_concurrent;
 ```
 
-#### Code VHDL mode séquentiel:
+#### Code VHDL affectation conditionnelle:
 ```vhdl
 library ieee;
 use ieee.std_logic_1164.all;
