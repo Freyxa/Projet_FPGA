@@ -17,6 +17,10 @@ Cela correspond bien à la table de vérité de la porte ET.
 ### A : Réalisation du décodeur BCD / 7segments : 
 #### Travail préparatoire:
 ![IMG20251123220151](https://github.com/user-attachments/assets/13de2cb7-1e16-4809-988d-b9d089119dcd)
+![IMG20251123220200](https://github.com/user-attachments/assets/d852e936-b654-4900-ad20-4ba5120379e6)
+![IMG20251123220213](https://github.com/user-attachments/assets/92d44859-03ff-4f15-b32a-6de986626b9c)
+
+
 
 
 #### Schéma:
