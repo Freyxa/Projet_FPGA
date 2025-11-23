@@ -15,6 +15,7 @@ On observe la sortie à l’état haut lorsque les deux entrées sont à l’ét
 ### A : Réalisation du décodeur BCD / 7segments : 
 #### Schéma:
 <img width="1240" height="900" alt="imagen" src="https://github.com/user-attachments/assets/67d9838d-6bbc-4d44-92e3-75bd85ba2d1c" />
+
 #### Code VHDL mode concurrent:
 
 
@@ -22,8 +23,10 @@ On observe la sortie à l’état haut lorsque les deux entrées sont à l’ét
 
 #### Simulation avec blocs:
 <img width="1792" height="281" alt="imagen" src="https://github.com/user-attachments/assets/8571cd0a-c231-4f1e-8a6f-bdeaf4bac20d" />
+
 #### Simulation avec code VHDL mode concurrent:
 <img width="1071" height="347" alt="imagen" src="https://github.com/user-attachments/assets/9595c0e3-ab9c-43cd-a67b-441987f7a863" />
+
 #### Simulation avec code VHDL mode séquentiel:
 
 Pour les valeurs comprises entre 0 et 9, les segments correspondants au chiffre décimal sont allumés de manière standard.
