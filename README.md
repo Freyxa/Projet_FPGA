@@ -8,13 +8,17 @@
 ### Simulation:
 <img width="947" height="305" alt="imagen" src="https://github.com/user-attachments/assets/bf2045ae-1405-462f-b2cc-b9259fab127e" />
 
-*Commentaire:*
+**Commentaire:**
 On observe la sortie à l’état haut lorsque les deux entrées sont à l’état haut ; dans les autres cas, la sortie est à l’état bas. 
 Cela correspond bien à la table de vérité de la porte ET.
 
 ## Projet 1: Comptage et affichage des secondes de 0 à 9
 
 ### A : Réalisation du décodeur BCD / 7segments : 
+#### Travail préparatoire:
+![IMG20251123220151](https://github.com/user-attachments/assets/13de2cb7-1e16-4809-988d-b9d089119dcd)
+
+
 #### Schéma:
 <img width="1240" height="900" alt="imagen" src="https://github.com/user-attachments/assets/67d9838d-6bbc-4d44-92e3-75bd85ba2d1c" />
 
@@ -71,7 +75,7 @@ end arch_dec_sequentiel;
 #### Simulation avec blocs:
 <img width="1792" height="281" alt="imagen" src="https://github.com/user-attachments/assets/8571cd0a-c231-4f1e-8a6f-bdeaf4bac20d" />
 
-Commentaire:
+**Commentaire**:
 Pour les valeurs comprises entre 0 et 9, les segments correspondants au chiffre décimal sont allumés de manière standard.
 Par exemple, le chiffre 1 s'affiche en allumant uniquement les segments b et c, ce qui correspond à un affichage correct.  
 Pour toute valeur hors de cet intervalle (par exemple, 10, 11, etc.), on choisit d’afficher la lettre 'E' (pour Erreur).
@@ -80,13 +84,15 @@ Ainsi, pour le code 10, les segments a, d, e, f, g sont activés, formant visuel
 #### Simulation avec code VHDL mode concurrent:
 <img width="1071" height="347" alt="imagen" src="https://github.com/user-attachments/assets/9595c0e3-ab9c-43cd-a67b-441987f7a863" />
 
-Commentaire:
+**Commentaire**:
 On remarque le même fonctionnement qu’avec la simulation précédente,
 mais cette fois-ci, on regroupe les entrées A, B, C et D dans une seule entrée appelée INPUT.
 À cette entrée, on attribue un compteur allant de 0 à F afin de tester toutes les combinaisons possibles.
 
 #### Simulation avec code VHDL mode séquentiel:
 
+**Commentaire**: 
+On obtient exactement la même simulation que pour le code concurrent, sauf que l’approche séquentielle simplifie le code.
 
 
 ### B : Réalisation d’un compteur BCD :
