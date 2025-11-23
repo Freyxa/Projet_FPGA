@@ -85,7 +85,7 @@ Par exemple, le chiffre 1 s'affiche en allumant uniquement les segments b et c, 
 Pour toute valeur hors de cet intervalle (par exemple, 10, 11, etc.), on choisit d’afficher la lettre 'E' (pour Erreur).
 Ainsi, pour le code 10, les segments a, d, e, f, g sont activés, formant visuellement la lettre 'E' sur l’afficheur 7-segments.
 
-#### Simulation avec code VHDL mode concurrent:
+#### Simulation avec code VHDL affectation inconditionnelle:
 <img width="1071" height="347" alt="imagen" src="https://github.com/user-attachments/assets/9595c0e3-ab9c-43cd-a67b-441987f7a863" />
 
 **Commentaire**:
@@ -93,7 +93,7 @@ On remarque le même fonctionnement qu’avec la simulation précédente,
 mais cette fois-ci, on regroupe les entrées A, B, C et D dans une seule entrée appelée INPUT.
 À cette entrée, on attribue un compteur allant de 0 à F afin de tester toutes les combinaisons possibles.
 
-#### Simulation avec code VHDL mode séquentiel:
+#### Simulation avec code VHDL affectation conditionnelle:
 
 **Commentaire**: 
 On obtient exactement la même simulation que pour le code concurrent, sauf que l’approche séquentielle simplifie le code.
