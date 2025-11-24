@@ -98,6 +98,9 @@ mais cette fois-ci, on regroupe les entrées A, B, C et D dans une seule entrée
 **Commentaire**: 
 On obtient exactement la même simulation que pour le code concurrent, sauf que l’approche séquentielle simplifie le code.
 
+#### Assignation des pins sur le FPGA:
+<img width="1888" height="957" alt="image" src="https://github.com/user-attachments/assets/4cc40f16-51c4-4f67-adf4-3cde53d570ff" />
+
 
 ### B : Réalisation d’un compteur BCD :
 #### B1 : Réalisation du compteur BCD simple cmpt1 :
