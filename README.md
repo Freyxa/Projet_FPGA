@@ -111,6 +111,10 @@ On obtient exactement la même simulation que pour le code concurrent, sauf que 
 #### Simulation avec bascule:
 <img width="1749" height="239" alt="image" src="https://github.com/user-attachments/assets/84bede65-9186-419b-a351-2d73729ea54d" />
 
+#### Assignation des pins sur le FPGA:
+<img width="1735" height="834" alt="image" src="https://github.com/user-attachments/assets/3684ecb2-6178-4d37-bcbb-b1721eaec519" />
+
+
 #### B2 : Réalisation du compteur BCD simple cmpt2 :
 #### B3 : Réalisation du compteur BCD simple cmpt3 :
 
