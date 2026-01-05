@@ -151,6 +151,8 @@ begin
 end Behavioral;
 ```
 
+#### Simulation fonctionnelle:
+
 #### Assignation des pins sur le FPGA:
 <img width="1735" height="834" alt="image" src="https://github.com/user-attachments/assets/3684ecb2-6178-4d37-bcbb-b1721eaec519" />
 
@@ -200,6 +202,7 @@ begin
 
 end Behavioral;
 ```
+#### Simulation fonctionnelle:
 #### B3 : Réalisation du compteur BCD simple cmpt3 :
 
 ###  C : Génération du signal de 1 Hz :
