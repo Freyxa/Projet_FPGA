@@ -127,7 +127,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity cmpt1 is
     Port (
         H : in  STD_LOGIC;  -- Horloge
-        Q : out STD_LOGIC_VECTOR(3 downto 0)  -- Sortie BCD
+        Q : out STD_LOGIC_VECTOR(3 downto 0)  -- Sortie binaire (0 à 15)
     );
 end cmpt1;
 
@@ -138,7 +138,7 @@ begin
     process(H)
     begin
         if rising_edge(H) then
-            if count = "1001" then  -- 9 en BCD
+            if count = "1111" then  -- 15 en binaire (F en hexa)
                 count <= "0000";    -- Revenir à 0
             else
                 count <= count + 1; -- Incrémenter
