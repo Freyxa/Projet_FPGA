@@ -104,6 +104,12 @@ On obtient exactement la même simulation que pour le code concurrent, sauf que 
 
 ### B : Réalisation d’un compteur BCD :
 #### B1 : Réalisation du compteur BCD simple cmpt1 :
+#### Travail préparatoire:
+![66124](https://github.com/user-attachments/assets/9fe0e577-a8fd-4577-b423-d722e31a8f8b)
+![66125](https://github.com/user-attachments/assets/53f821e8-16dd-4994-84e3-c45258b58030)
+![66126](https://github.com/user-attachments/assets/52ba780e-4d5f-4f20-b62c-0ce605a8a5cd)
+
+
 #### Schéma avec blocs et bascules:
 <img width="1412" height="532" alt="image" src="https://github.com/user-attachments/assets/7bbb8684-4bc9-40e5-b9cf-c2e347ce2656" />
 
