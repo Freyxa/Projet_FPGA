@@ -117,7 +117,7 @@ On obtient exactement la même simulation que pour le code concurrent, sauf que 
 #### Simulation avec bascule:
 <img width="1749" height="239" alt="image" src="https://github.com/user-attachments/assets/84bede65-9186-419b-a351-2d73729ea54d" />
 
-#### Code VHDL
+#### Code VHDL cmpt1:
 ```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
