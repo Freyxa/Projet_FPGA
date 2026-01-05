@@ -117,6 +117,40 @@ On obtient exactement la même simulation que pour le code concurrent, sauf que 
 #### Simulation avec bascule:
 <img width="1749" height="239" alt="image" src="https://github.com/user-attachments/assets/84bede65-9186-419b-a351-2d73729ea54d" />
 
+#### Code VHDL
+```vhdl
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity cmpt1 is
+    Port (
+        H : in  STD_LOGIC;  -- Horloge
+        Q : out STD_LOGIC_VECTOR(3 downto 0)  -- Sortie BCD
+    );
+end cmpt1;
+
+architecture Behavioral of cmpt1 is
+    signal count : STD_LOGIC_VECTOR(3 downto 0) := "0000";
+begin
+
+    process(H)
+    begin
+        if rising_edge(H) then
+            if count = "1001" then  -- 9 en BCD
+                count <= "0000";    -- Revenir à 0
+            else
+                count <= count + 1; -- Incrémenter
+            end if;
+        end if;
+    end process;
+
+    Q <= count;
+
+end Behavioral;
+```
+
 #### Assignation des pins sur le FPGA:
 <img width="1735" height="834" alt="image" src="https://github.com/user-attachments/assets/3684ecb2-6178-4d37-bcbb-b1721eaec519" />
 
