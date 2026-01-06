@@ -131,7 +131,7 @@ entity cmpt1 is
     );
 end cmpt1;
 
-architecture Behavioral of cmpt1 is
+architecture arch_cmpt1 of cmpt1 is
     signal count : STD_LOGIC_VECTOR(3 downto 0) := "0000";
 begin
 
