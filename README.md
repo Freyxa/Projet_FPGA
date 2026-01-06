@@ -148,7 +148,7 @@ begin
 
     Q <= count;
 
-end Behavioral;
+end arch_cmpt1;
 ```
 
 #### Simulation fonctionnelle:
