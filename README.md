@@ -153,6 +153,9 @@ end arch_cmpt1;
 
 #### Simulation fonctionnelle:
 
+<img width="1563" height="257" alt="image" src="https://github.com/user-attachments/assets/87c68f04-a58a-414b-a0cb-d7c35d90a6db" />
+
+
 #### Assignation des pins sur le FPGA:
 <img width="1735" height="834" alt="image" src="https://github.com/user-attachments/assets/3684ecb2-6178-4d37-bcbb-b1721eaec519" />
 
@@ -203,6 +206,14 @@ begin
 end Behavioral;
 ```
 #### Simulation fonctionnelle:
+
+<img width="1576" height="274" alt="image" src="https://github.com/user-attachments/assets/6fb170a9-94d2-4d1d-a00f-4edfe3d59101" />
+
+#### Assignation des pins sur le FPGA:
+
+<img width="1906" height="890" alt="image" src="https://github.com/user-attachments/assets/5042d81f-f83c-4393-a952-0207825ea3c9" />
+
+
 #### B3 : Réalisation du compteur BCD simple cmpt3 :
 
 #### Code VHDL cmpt1:
