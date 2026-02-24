@@ -276,6 +276,16 @@ end Behavioral;
 
 <img width="1457" height="776" alt="imagen" src="https://github.com/user-attachments/assets/a2bd97fd-3ad3-44f7-a8ab-56e9fd2b2e28" />
 
+#### Compteur BCD + Transcodeur BCD/7segments (symboles des codes VHDL précédents):
+
+<img width="1421" height="538" alt="imagen" src="https://github.com/user-attachments/assets/1b44bdd4-aeec-45f8-80c3-cc17f980a250" />
+
+#### Simulation fonctionnelle:
+
+<img width="1452" height="768" alt="imagen" src="https://github.com/user-attachments/assets/9a981723-2be4-4db3-ab53-b6b9b6e83d53" />
+
+
+
 
 ###  C : Génération du signal de 1 Hz :
 
