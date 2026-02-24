@@ -161,6 +161,9 @@ end arch_cmpt1;
 
 
 #### B2 : Réalisation du compteur BCD simple cmpt2 :
+
+#### Code VHDL cmpt1:
+
 ```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
