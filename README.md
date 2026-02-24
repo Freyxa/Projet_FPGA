@@ -216,7 +216,7 @@ end Behavioral;
 
 #### B3 : Réalisation du compteur BCD simple cmpt3 :
 
-#### Code VHDL cmpt1:
+#### Code VHDL cmpt3:
 
 ```vhdl
 library IEEE;
@@ -272,6 +272,10 @@ begin
 
 end Behavioral;
 ```
+#### Simulation fonctionnelle:
+
+<img width="1457" height="776" alt="imagen" src="https://github.com/user-attachments/assets/a2bd97fd-3ad3-44f7-a8ab-56e9fd2b2e28" />
+
 
 ###  C : Génération du signal de 1 Hz :
 
