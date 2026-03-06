@@ -155,6 +155,9 @@ end arch_cmpt1;
 
 <img width="1563" height="257" alt="image" src="https://github.com/user-attachments/assets/87c68f04-a58a-414b-a0cb-d7c35d90a6db" />
 
+**Commentaire**:
+On observe le comportement attendu, c'est-à-dire que lors de chaque front montant de H, on incrémente ```count``` de 1. Également, on vérifie le bon fonctionnement de la condition : si la valeur maximale est atteinte (1111), alors revenir à la valeur minimale (0000). 
+
 
 #### Assignation des pins sur le FPGA:
 <img width="1735" height="834" alt="image" src="https://github.com/user-attachments/assets/3684ecb2-6178-4d37-bcbb-b1721eaec519" />
@@ -211,6 +214,9 @@ end Behavioral;
 #### Simulation fonctionnelle:
 
 <img width="1576" height="274" alt="image" src="https://github.com/user-attachments/assets/6fb170a9-94d2-4d1d-a00f-4edfe3d59101" />
+
+**Commentaire**:
+Dans ce cas, on rajoute un reset asynchrone `RESET` qui remettra count à 0000 indépendamment de l'horloge `H`. On garde le même fonctionnement pour le compteur, sauf que cette fois-ci on rajoute `C` qui dictera si comptage (C=1) ou décomptage (C/=1).
 
 #### Assignation des pins sur le FPGA:
 
