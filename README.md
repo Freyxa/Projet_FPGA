@@ -12,7 +12,7 @@
 On observe la sortie à l’état haut lorsque les deux entrées sont à l’état haut ; dans les autres cas, la sortie est à l’état bas. 
 Cela correspond bien à la table de vérité de la porte ET.
 
-## Projet 1: Comptage et affichage des secondes de 0 à 9
+## Projet 1: Comptage et affichage de 0 à 9
 
 ### A : Réalisation du décodeur BCD / 7segments : 
 #### Travail préparatoire:
@@ -26,7 +26,7 @@ Cela correspond bien à la table de vérité de la porte ET.
 #### Schéma:
 <img width="1240" height="900" alt="imagen" src="https://github.com/user-attachments/assets/67d9838d-6bbc-4d44-92e3-75bd85ba2d1c" />
 
-#### Code VHDL affectation inconditionnelle:
+#### Code VHDL affectation inconditionnelle avec équations du travail préparatoire:
 ```vhdl
 library ieee;
 use ieee.std_logic_1164.all;
@@ -114,7 +114,7 @@ On obtient exactement la même simulation que pour le code concurrent, sauf que 
 <img width="1412" height="532" alt="image" src="https://github.com/user-attachments/assets/7bbb8684-4bc9-40e5-b9cf-c2e347ce2656" />
 
 
-#### Simulation avec bascule:
+#### Simulation avec blocs et bascules:
 <img width="1749" height="239" alt="image" src="https://github.com/user-attachments/assets/84bede65-9186-419b-a351-2d73729ea54d" />
 
 #### Code VHDL cmpt1:
