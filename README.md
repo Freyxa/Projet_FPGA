@@ -285,6 +285,9 @@ end Behavioral;
 
 <img width="1457" height="776" alt="imagen" src="https://github.com/user-attachments/assets/a2bd97fd-3ad3-44f7-a8ab-56e9fd2b2e28" />
 
+**Commentaire**:
+Dans ce cmpt3, on garde la même architecture que le cmpt2 et on rajoute un `load` synchrone qui injectera, lors du front montant de l'horloge `H`, la valeur de `data`. Puis il réalisera un comptage ou décomptage en fonction de `C`. Mais bien sûr, le `RESET` reste prioritaire dans le process. 
+
 #### Compteur BCD + Transcodeur BCD/7segments (symboles des codes VHDL précédents):
 
 <img width="1421" height="538" alt="imagen" src="https://github.com/user-attachments/assets/1b44bdd4-aeec-45f8-80c3-cc17f980a250" />
