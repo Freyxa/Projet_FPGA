@@ -1,4 +1,4 @@
-# Projets_FPGA
+# Projets_FPGA_Quartus
 
 
 ## Prise en main du logiciel: Porte ET 
