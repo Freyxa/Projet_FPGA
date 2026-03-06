@@ -296,6 +296,8 @@ Dans ce cmpt3, on garde la même architecture que le cmpt2 et on rajoute un `loa
 
 <img width="1452" height="768" alt="imagen" src="https://github.com/user-attachments/assets/9a981723-2be4-4db3-ab53-b6b9b6e83d53" />
 
+**Commentaire**:
+La simulation montre le comportement attendu ; il suffit de visualiser les segments allumés par rapport à la valeur décimale du bus SEG. Par exemple, on injecte comme `data` la valeur 5 (0101). Pour afficher la valeur 5, on devrait théoriquement obtenir 36 en décimal, ou plus précisément 00100010 en binaire, ce qui correspondrait aux segments b et e allumés. Or, c'est l'inverse de la valeur attendue. Ceci est dû au fait que l'état bas (low) des LEDs de l'afficheur 7 segments correspond à la LED allumée. Donc, en réalité, lors du test sur FPGA, on a bien les segments a, c, d, g, f allumés. On remarque aussi que l'ordre des segments commence au segment 0 à l'emplacement de f dans notre travail préparatoire ; tout est donc décalé d'une position. C'est pourquoi on obtient 00100010 au lieu de 01000100. Finalement, l'affichage est bien réalisé en tenant compte des éléments précédents. 
 
 
 
